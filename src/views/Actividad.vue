@@ -15,27 +15,39 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Relaciones interpersonales en el entorno laboral.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar la importancia de la comunicación asertiva, las relaciones interpersonales, la ética empresarial, y la resolución de conflictos en el entorno laboral, con el fin de promover un ambiente de trabajo colaborativo, productivo y ético.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Cuál es la base fundamental del trabajo en equipo dentro de una organización? ',
+          imagen: require('@/assets/actividad/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'La comunicación. ',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'La competencia individual. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La creatividad. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La tecnología. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,77 +55,283 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
+            '¿Qué aspecto es clave para mejorar las relaciones interpersonales en el entorno laboral? ',
+          imagen: require('@/assets/actividad/pregunta_2.svg'),
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
-              esCorrecta: false,
+              texto: 'El respeto mutuo. ',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'La competencia. ',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
+              texto: 'El uso de tecnología avanzada. ',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'La jerarquía estricta. ',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Cuál de las siguientes no es una cualidad necesaria para una relación interpersonal asertiva? ',
+          imagen: require('@/assets/actividad/pregunta_3.svg'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Agresividad. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Integralidad. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Calidad de vida. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nivel de conciencia. ',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
+          texto:
+            '¿Qué acción debe realizar un jefe para fomentar un mejor ambiente laboral? ',
+          imagen: require('@/assets/actividad/pregunta_4.svg'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Escuchar y comprender el punto de vista de sus empleados. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Ignorar los errores de los empleados. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar el trabajo en equipo. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Imponer reglas estrictas sin discusión. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto: '¿Qué estudia la ética empresarial? ',
+          imagen: require('@/assets/actividad/pregunta_1.svg'),
+          barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Los actos humanos desde un punto de vista moral. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El desarrollo tecnológico en la empresa. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las tendencias de mercado. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La productividad de los empleados. ',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Qué es el conflicto en el contexto de relaciones interpersonales? ',
+          imagen: require('@/assets/actividad/pregunta_2.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una situación compleja que puede ser constructiva si se maneja bien. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Una situación inevitable que siempre es negativa. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un rumor no verificado. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un malentendido menor. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 7,
+          texto: '¿Qué es el rumor según el documento? ',
+          imagen: require('@/assets/actividad/pregunta_3.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Una noticia falsa que circula sin verificación. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Un hecho verificado. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un anuncio oficial. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una crítica constructiva. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué es la autoconciencia en el contexto de la inteligencia emocional? ',
+          imagen: require('@/assets/actividad/pregunta_4.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La habilidad de reconocer y entender los propios estados de ánimo y emociones. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La capacidad de ignorar los sentimientos de los demás. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La capacidad de influir en las decisiones de otros. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La tendencia a actuar impulsivamente. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Cuál de las siguientes es una forma de resolución de conflictos? ',
+          imagen: require('@/assets/actividad/pregunta_1.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La negociación. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar la tensión entre las partes. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar el conflicto. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Impedir la comunicación. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué elemento es fundamental para la producción de documentos digitales de alta calidad en una organización? ',
+          imagen: require('@/assets/actividad/pregunta_2.svg'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La comunicación asertiva y el respeto a las normas gramaticales. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La tecnología más avanzada. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La competencia entre empleados. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El uso exclusivo de <em>software</em> automatizado. ',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
