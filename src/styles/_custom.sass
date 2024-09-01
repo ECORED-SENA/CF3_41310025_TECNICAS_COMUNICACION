@@ -69,19 +69,20 @@
 .cont_decorativo:before
   content: ''
   position: absolute
-  width: 100%
-  right: 3%
-  height: 67%
-  bottom: 0
-  background-color: #F3D02C
+  width: 90%
+  right: -4px
+  height: 6px
+  bottom: 4px
+  background-color: #2436B1
   border-radius: 5px
+.cont_decorativo h3
+  color: #2436B1
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #12263F !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #12263F !important
 .banner-principal__img img
   max-width: 500px
-
 
 .slyder-f__btn i
   font-size: 1.2rem
@@ -91,16 +92,18 @@
   box-shadow: 0px 0px 24px rgba(0, 0, 0, .3)
 
 .acordion .tarjeta
-  background-color: #F7F0D8
+  background-color: #405F5A
+.acordion .tarjeta h3
+  color: #fff
 .acordion .tarjeta.acordion__activo
-  background-color: #DCEEB6
+  background-color: #D8DEDD
 .acordion .tarjeta.acordion__activo *
   color: #12263F
 .acordion__accion__btn--b i
   color: #12263F
 .acordion__accion__btn--a
-  border: 1px solid #F79729
-  background-color: #F79729
+  border: 1px solid #FCD900
+  background-color: #FCD900
   color: #12263F !important
 
 .cont_intro, .cont_intro *
@@ -120,14 +123,6 @@
 
 .p-relative, .p-relative *
   position: relative
-
-.titulo_tercero
-  background-color: #FCE7D5
-  max-width: fit-content
-  padding: .5rem 2rem .5rem 1rem
-  border-radius: 50px
-  margin-top: 2.5rem
-  margin-bottom: 1.5rem
 
 .cont_tarjeta_slyderf
   background-color: #fff
@@ -157,8 +152,86 @@
 @media screen and (max-width: 992px)
   .banner-principal .tarjeta, .cont_intro:before
     background-size: cover !important
-  .cont_decorativo:before
-    height: 100%
-    top: 0
-    bottom: 0
-    right: 6%
+
+/********Tema 1*********/
+.cont_1_1, .cont_1_1 *
+  position: relative
+.cont_1_1:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 80%
+  left: -15%
+  top: 10%
+  bottom: 10%
+  background: url(../assets/curso/tema1/1.png)
+  background-size: 100% 100%
+
+.tarjeta_slyderb
+  background: url(../assets/curso/tema1/6.png)
+  background-size: 100% 100%
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FCD900
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: #B9C4C2
+  border-color: #B9C4C2
+
+.slyder-a__bullets__item--active
+  background-color: #405F5A !important
+  border-color: #405F5A !important
+
+.cont_1_2
+  position: relative
+.cont_1_2:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 95%
+  left: -15%
+  bottom: 5%
+  background: rgb(36,54,177)
+  background: linear-gradient(180deg, rgba(36,54,177,0) 0%, rgba(36,54,177,0.0985644257703081) 25%, rgba(36,54,177,0.0985644257703081) 75%, rgba(36,54,177,0) 100%)
+
+.cont_1_3, .cont_1_3 *
+  position: relative
+.cont_1_3:before
+  position: absolute
+  content: ''
+  width: 125%
+  height: 90%
+  left: -15%
+  bottom: 10%
+  background: url(../assets/curso/tema1/19.png)
+  background-size: 100% 100%
+
+@media screen and (max-width: 992px)
+  .cont_1_1:before, .tarjeta_slyderb
+    background-size: cover !important
+
+/********Tema 2*********/
+.cont_2_1, .cont_2_1 *
+  position: relative
+.cont_2_1:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 90%
+  left: -5%
+  bottom: 10%
+  background: url(../assets/curso/tema2/9.png)
+  background-size: 100% 100%
+
+.cont_2_2
+  background-color: #D8DEDD
+  border-radius: 10px
+  transition: all .4s ease-in-out
+  cursor: pointer
+.cont_2_2:hover
+  background-color: #FED7C3
+
+@media screen and (max-width: 992px)
+  .cont_2_1:before
+    background-size: cover !important
