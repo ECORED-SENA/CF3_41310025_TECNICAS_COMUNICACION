@@ -119,14 +119,14 @@ export default {
     {
       tema: 'La comunicación y las relaciones interpersonales ',
       referencia:
-        'Aprendemos Juntos 2030 (2021). El valor de las relaciones humanas. Keith Ferrazzi, escritor y coach. [Archivo de video] Youtube.   ',
+        'Aprendemos Juntos 2030 (2021). El valor de las relaciones humanas. Keith Ferrazzi, escritor y <em>coach</em>. [Archivo de video] Youtube.   ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=3WFQMj_TAWc  ',
     },
     {
       tema: 'La comunicación como base del trabajo en equipo ',
       referencia:
-        'TEDx Talks (2019). El valor de las relaciones humanas. Keith Ferrazzi, escritor y coach. [Archivo de video] Youtube.   ',
+        'TEDx Talks (2019). El valor de las relaciones humanas. Keith Ferrazzi, escritor y <em>coach</em>. [Archivo de video] Youtube.   ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=7uygpZkVHH0  ',
     },
@@ -134,7 +134,7 @@ export default {
       tema: 'Ética empresarial ',
       referencia:
         'Grupo STT. (2024, febrero 29). <em>Todo lo que debe saber de la ética empresarial [Audio podcast]. En Podcast Grupo STT</em>. ',
-      tipo: 'Podcast',
+      tipo: 'Pódcast',
       link: 'https://music.youtube.com/watch?v=bMtTz49a-LI  ',
     },
     {
@@ -271,8 +271,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'José Herney Sánchez Pizarro',
+          cargo: 'Experto temático ',
+          centro:
+            'Centro de Desarrollo Agropecuario y Agroindustrial CEDEAGRO - Regional Boyacá ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta ',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -281,18 +287,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carlos Julián Ramírez Benítez ',
+          cargo: 'Diseñador de contenidos digitales ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -302,12 +303,7 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador de recursos educativos digitales ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

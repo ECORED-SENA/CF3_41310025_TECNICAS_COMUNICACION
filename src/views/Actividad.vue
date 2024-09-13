@@ -26,7 +26,7 @@ export default {
           texto:
             '¿Cuál es la base fundamental del trabajo en equipo dentro de una organización? ',
           imagen: require('@/assets/actividad/pregunta_1.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -57,7 +57,7 @@ export default {
           texto:
             '¿Qué aspecto es clave para mejorar las relaciones interpersonales en el entorno laboral? ',
           imagen: require('@/assets/actividad/pregunta_2.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -88,7 +88,7 @@ export default {
           texto:
             '¿Cuál de las siguientes no es una cualidad necesaria para una relación interpersonal asertiva? ',
           imagen: require('@/assets/actividad/pregunta_3.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -119,7 +119,7 @@ export default {
           texto:
             '¿Qué acción debe realizar un jefe para fomentar un mejor ambiente laboral? ',
           imagen: require('@/assets/actividad/pregunta_4.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -150,7 +150,7 @@ export default {
           id: 5,
           texto: '¿Qué estudia la ética empresarial? ',
           imagen: require('@/assets/actividad/pregunta_1.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -181,7 +181,7 @@ export default {
           texto:
             '¿Qué es el conflicto en el contexto de relaciones interpersonales? ',
           imagen: require('@/assets/actividad/pregunta_2.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -212,7 +212,7 @@ export default {
           id: 7,
           texto: '¿Qué es el rumor según el documento? ',
           imagen: require('@/assets/actividad/pregunta_3.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -243,7 +243,7 @@ export default {
           texto:
             '¿Qué es la autoconciencia en el contexto de la inteligencia emocional? ',
           imagen: require('@/assets/actividad/pregunta_4.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -275,7 +275,7 @@ export default {
           texto:
             '¿Cuál de las siguientes es una forma de resolución de conflictos? ',
           imagen: require('@/assets/actividad/pregunta_1.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -306,7 +306,7 @@ export default {
           texto:
             '¿Qué elemento es fundamental para la producción de documentos digitales de alta calidad en una organización? ',
           imagen: require('@/assets/actividad/pregunta_2.svg'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',

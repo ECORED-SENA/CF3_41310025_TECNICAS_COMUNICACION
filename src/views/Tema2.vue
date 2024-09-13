@@ -34,7 +34,7 @@
               figure 
                 img(src="@/assets/curso/tema2/3.svg")
             .col(style="place-self:center;")
-              p.mb-0 Las relaciones interpersonales mejoran con una buena comunicación. Para que esto se cumpla, se debe valorar y respetar el pensamiento de los demás. ¿Se hace esto en el trabajo? 
+              p.mb-0 Las relaciones interpersonales mejoran con una buena comunicación. Para que esto se cumpla, se debe valorar y respetar el pensamiento de los demás. #[strong ¿Se hace esto en el trabajo?] 
     
     .cont_1_2
 
@@ -57,7 +57,7 @@
                 img(src='@/assets/curso/tema2/4.png')
           .row.pt-lg-4
             .col-lg-7.mb-4.mb-lg-0
-              h5 EL rumor
+              h5 El rumor
               p.mt-4 El rumor es la difusión de una noticia que circula de persona a persona sin ser verificada y sin que se disponga de medios de prueba seguros. Lo que define al rumor no es su origen, sino su evolución. El rumor se origina por la necesidad de la audiencia de clarificar, completar o comprender mensajes confusos. 
               p En el ámbito empresarial, el rumor es una de las principales fuentes de noticias e información sobre los cambios, proyectos y políticas. Por lo tanto, la administración debe prestar atención a la comunicación dentro de la empresa para evitar ambigüedades en la información que reciben los empleados. 
             .col-lg-5
@@ -168,7 +168,7 @@
                   span Prestar atención a los mensajes verbales y no verbales. 
                 li.d-flex
                   i.fas.fa-check-circle(style="color:#FF9B6A;")
-                  span Equilibrar la comunicación, sin buscar beneficios propios
+                  span Equilibrar la comunicación, sin buscar beneficios propios.
             .row.col-xl-11.m-auto(titulo="La calidad de vida o el saber hacer ")
               p En este aspecto, las personas deben aceptar su posición en su círculo social, desempeñándose con responsabilidad. Se habla de calidad de vida cuando el ser humano sabe: 
               ul.lista-ul.mt-3
