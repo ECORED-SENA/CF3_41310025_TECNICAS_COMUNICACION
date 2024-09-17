@@ -61,6 +61,8 @@
             h5.mb-0 ¿Cuándo se realiza una crítica: se hace a la acción o a la persona?
           .p-3.mb-2(style="background-color:#D8DEDD;")
             h5.mb-0 ¿Cómo se hacen los comentarios?
+          .p-3(style="background-color:#D8DEDD;")
+            h5.mb-0 ¿Son positivos o negativos?
     
     p.mt-4(data-aos="fade-up") Las habilidades sociales son fundamentales para establecer relaciones saludables y efectivas en todos los ámbitos de la vida: 
 
@@ -175,8 +177,6 @@
               h5.mb-0 ¿Quién nos obliga a realizar esta acción?
             .p-3.mb-2(style="background-color:#D8DEDD;")
               h5.mb-0 Entre estas dos acciones, ¿cuál se debe elegir?
-            .p-3(style="background-color:#D8DEDD;")
-              h5.mb-0 ¿Son positivos o negativos?
       
     .col-lg-10.m-auto.mt-4
       .p-3(data-aos="zoom-in" style="background-color:#FED7C3;")
