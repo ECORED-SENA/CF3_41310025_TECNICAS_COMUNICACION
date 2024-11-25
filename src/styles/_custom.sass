@@ -66,6 +66,7 @@
 .cont_decorativo, .cont_decorativo *
   position: relative
   max-width: fit-content
+  padding-bottom: .2px
 .cont_decorativo:before
   content: ''
   position: absolute
@@ -75,6 +76,8 @@
   bottom: 4px
   background-color: #2436B1
   border-radius: 5px
+  @media screen and (max-width: 400px)
+    display: none
 .cont_decorativo h3
   color: #2436B1
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6

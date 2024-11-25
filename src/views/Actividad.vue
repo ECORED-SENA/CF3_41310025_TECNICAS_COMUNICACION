@@ -312,7 +312,7 @@ export default {
               id: 'a',
               texto:
                 'La comunicación asertiva y el respeto a las normas gramaticales. ',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
@@ -327,7 +327,7 @@ export default {
             {
               id: 'd',
               texto: 'El uso exclusivo de <em>software</em> automatizado. ',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

@@ -133,7 +133,7 @@ export default {
     {
       tema: 'Ética empresarial ',
       referencia:
-        'Grupo STT. (2024, febrero 29). <em>Todo lo que debe saber de la ética empresarial [Audio podcast]. En Podcast Grupo STT</em>. ',
+        'Grupo STT. (2024, febrero 29). Todo lo que debe saber de la ética empresarial [Audio podcast]. En Podcast Grupo STT. ',
       tipo: 'Pódcast',
       link: 'https://music.youtube.com/watch?v=bMtTz49a-LI  ',
     },
@@ -147,7 +147,7 @@ export default {
     {
       tema: 'Dificultades en las relaciones interpersonales ',
       referencia:
-        'Universidad Nacional de Costa Rica. (n.d.). <em>Guía de autoayuda: Relaciones interpersonales</em>. ',
+        'Universidad Nacional de Costa Rica. (n.d.). Guía de autoayuda: Relaciones interpersonales. ',
       tipo: 'Guía',
       link:
         'https://documentos.una.ac.cr/bitstream/handle/unadocs/12376/Gu%C3%ADa%20de%20autoayuda%20-%20Relaciones%20interpersonales%20PDF.pdf?sequence=1&isAllowed=y  ',
@@ -198,7 +198,7 @@ export default {
     {
       termino: 'Canal',
       significado:
-        'medio o conducto de comunicación. la elección de canales es a menudo un factor importante para la efectividad de la comunicación. ',
+        'medio o conducto de comunicación. La elección de canales es a menudo un factor importante para la efectividad de la comunicación. ',
     },
     {
       termino: 'Cohesión',
@@ -208,7 +208,7 @@ export default {
     {
       termino: 'Coherencia',
       significado:
-        'condición que se construye en la interacción, dentro de una situación comunicativa. puede entenderse como una teoría sobre el sentido de un texto. ',
+        'condición que se construye en la interacción, dentro de una situación comunicativa. Puede entenderse como una teoría sobre el sentido de un texto. ',
     },
   ],
   referencias: [
@@ -221,8 +221,6 @@ export default {
     {
       referencia:
         'Chauvin, S. (s.f.). La Comunicación Como Base del Trabajo en Equipo.',
-      link:
-        'https://www.mujeresdeempresa.com/la-comunicacion-como-base-del-trabajo-en-equipo/   ',
     },
     {
       referencia:
